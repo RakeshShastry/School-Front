@@ -1,0 +1,11 @@
+.sum{
+    background-color : skyblue;
+    padding: 40px; 
+    margin: 10px;
+    border-radius: 30px;
+    color:white; 
+}
+
+.sum input{
+    background-color:lightgoldenrodyellow;
+}
