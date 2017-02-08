@@ -37,7 +37,7 @@ describe("List", () =>{
 
   it('should display sam in the 2nd box', () => {
     const wrapper = mount(<List header="Students" items={students} />);
-    console.log(wrapper.find(Box).at(1).find('div > div').html());
+    //console.log(wrapper.find(Box).at(1).find('div > div').html());
   });
 
    it('should call fn when 2nd box is clicked', () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Box from '../Box/Box';
-
+import axios from 'axios';
 export default(props) => {
   const items = props.items || [];
     return(
